@@ -1,5 +1,5 @@
 # Lookup for Name-Servers of a domain
-The application, built using NodeJS & ReactJS allows a user to fetch sundomains, name servers & IPs of a searched domain URL. It makes use of the subquest depedency in the backend .
+The application, built using NodeJS & ReactJS allows a user to fetch subdomains, nameservers & IPs of a searched domain URL. It makes use of the subquest depedency in the backend .
 
 
 
@@ -18,7 +18,7 @@ Start docker on your local device & run below command after navigating to the pr
 ```
 docker-compose up
 ```
-Wait for few seconds, until you notice React app shows started in the terminal. Now check the frontend at http://localhost:3000/
+Wait for a few seconds, until you notice React app shows started in the terminal. Now check the frontend at http://localhost:3000/
 
 
 _Note:  
