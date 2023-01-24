@@ -22,4 +22,4 @@ Wait for a few seconds, until you notice React app shows started in the terminal
 
 
 _Note:  
-Alternatively, if you do not wish to use docker, run individual projects (frontend & backend) by going inside their respective folders and running commands to start services using your oreferred process manager i.e. nodemon, pm2 etc_
+Alternatively, if you do not wish to use docker, run individual projects (frontend & backend) by going inside their respective folders and running commands to start services using your preferred process manager i.e. nodemon, pm2 etc_
