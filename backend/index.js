@@ -1,3 +1,5 @@
+const PORT = 4000;
+
 const express = require("express");
 const app = express();
 
@@ -11,7 +13,7 @@ app.use(bodyParser.json()); // parse requests of content-type: application/json
 app.use(bodyParser.urlencoded({ extended: true })); // parse requests of content-type: application/x-www-form-urlencoded
 
 app.get("/:domainName",
-  function (req, res){
+   async (req, res) => {
     let domainName = req.params.domainName;
     if(isValidDomain(domainName)){
       subquest.getSubDomains({host: domainName }, 
@@ -28,7 +30,7 @@ app.get("/:domainName",
   }
 );
 
-app.listen(4000); // listen on port 4000
+app.listen(PORT);
 
 
 function isValidDomain(str)
